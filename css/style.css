@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.nav-cl a{
+    color: #9a9a9a;
+}
+.banner{
+    background: #0E4257 url('../images/bannerb.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+.banner{}
+.vh-100{
+    height: 100vh;
+}
+.vh-100 h2{
+    font-size: 62px;
+}
+.vh-100 p{
+    font-size: 20px;
+    text-align: center;
+}
+.introduction{
+    margin-bottom: 30px;
+}
+.head{
+}
+.head h1{
+    text-align: center;
+}
+.head p{
+    text-align: center;
+}
+.box{}
+.icon{
+    text-align: center;
+}
+.icon a{
+    text-decoration: none;
+    font-size: 50px;
+    color: #282424;
+}
+.icon i{
+    text-align: center;
+}
+.box h3{
+    text-align: center;
+}
+.box p{
+    text-align: center;
+}
+.team-head h1{
+    text-align: center;
+}
+.team-head p{
+    text-align: center;
+}
+.body-banner{}
+.b-banner{
+    background: #59392A url('../images/body-bannerb.jpg');
+    background-size: cover;
+    height: 30vh;
+}
+.b-head{}
+.b-head p{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.b-head a{
+    color: white;
+    /* margin: 0 auto; */
+    /* padding: 24px 0; */
+    /* justify-content: center; */
+}
+.b-head button{
+    background: none;
+    color: white;
+    border-color: white;
+    /* margin: 0 auto; */
+    padding: 5px 12px;
+}
+.cs-btn{}
+.vh-30{
+    height: 30vh;
+    text-align: center;
+}
+.overlay{
+    height: 0%;
+    width: 100%;
+    position: absolute;
+    transition-duration: 1s;
+    background-color: #312b2b;
+    display: block;
+    opacity: 0.6;
+}
+
+.over-img{
+    position: relative;
+}
+.over-img:hover .overlay{
+    height: 100%;
+}
+.process{
+    margin-bottom: 20vh;
+}
+.process-head{}
+.process-head h1{}
+.process-head b{}
+.process-head p{}
+.icon-box{
+    float: left;
+    margin-left: 0px;
+}
+.icon-box a{
+    text-decoration: none;
+    color: #282424;
+    font-size: 60px;
+}
+.icon-box i{}
+.t-a-c{
+    text-align: center;
+}
+.p p{
+    text-align: center;
+}
+.process-ul{
+    text-align: center;
+}
+.process-ul li{
+    list-style: none;
+    display: list-item;
+}
+.content{
+    text-align: center;
+}
+.content h1{}
+.content b{}
+.content span{
+    /* color: #ba1616; */
+}
+.content p{}
+.portfolio-content{
+    text-align: center;
+}
+.portfolio{
+    margin-top: 10vh;
+}
+.portfolio-content h1{}
+.portfolio-content span{}
+.portfolio-content p{}
+.custom-btn{
+    padding: 5px 22px;
+    background: none;
+    border-color: #494949;
+}
+.custom-btn:hover{
+    color: white;
+    background-color: #292525;
+}
+.form{
+    background: #222222;
+    height: 20vh;
+}
+.vh-20{
+    height: 1vh;
+    align-items: center;
+}
+.foot-input{}
+.foot-input input{
+    padding: 6px 40vh;
+}
+.cen{
+    text-align: center;
+    margin-top: 25px;
+}
+.sign-head{}
+.p-input{
+    border: none;
+    font-size: 20px;
+}
+.e-input{
+    border: none;
+    font-size: 20px;
+}
+.e-lab{
+    /* border: none; */
+}
+.p-lab{}
+.cst-btn{
+    margin-left: 10px;
+    margin-top: 40px;
+    background: none;
+    color: #545454;
+    border-color: dimgrey;
+}
+.mb{
+    margin-bottom: 50px;
+}
+.footer-top{
+    background: #222222;
+    padding: 30px 0;
+    overflow: hidden;
+}
+.fot-head{
+}
+.fot-head p{
+    color: white;
+    /* text-align: center; */
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+.footer-banner{
+    background: #1B275B url('../images/footer-bannerb.jpg');
+    background-size: cover;
+    height: 40vh;
+}
+.box-fot{}
+.box-fot p{}
+.box-fot span{}
+.vh-30{
+    height: 30vh;
+    align-items: center;
+}
+.foot-icons{
+    color: white;
+    font-size: 30px;
+}
+.credit{
+    margin-top: 20px
+}
+.credit p{margin: 0 auto;color: white;}
+.credit a{
+    color: #ffe000;
+}
+.work{
+    background: #F9FAFC;
+    padding: 10px 0;
+    margin-top: 10vh;
+}
+.over-img{
+    background-size: 100%;
+    transition-duration: 0.5s;
+}
+.over-img:hover{
+    background-size: 110%;
+}
+.navbar-shrink{
+    background: #464646;
+    color: black;
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out; 
+}
